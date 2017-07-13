@@ -1,0 +1,9 @@
+server:
+  port: 3101
+spring:
+  application:
+    name: test-eureka-client-consumer-ribbon
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1001/eureka/
